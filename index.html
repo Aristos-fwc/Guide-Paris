@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>City Guide: Paris</title>
+    <meta name="description" content="An illustrated map of Paris: favourite museums, bars, parks and shops, plus themed guides." />
+    <meta name="theme-color" content="#0e2a2e" />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+    <!-- Link previews. og:url and og:image are added at build time when
+         VITE_SITE_URL is set (see vite.config.js): they must be absolute URLs. -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="City Guide: Paris" />
+    <meta property="og:title" content="City Guide: Paris" />
+    <meta property="og:description" content="An illustrated map of Paris: favourite museums, bars, parks and shops, plus themed guides." />
+
+    <link rel="preload" as="image" href="/assets/paris-gargoyle.webp" type="image/webp" fetchpriority="high" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Jost:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
