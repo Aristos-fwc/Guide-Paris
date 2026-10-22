@@ -1,0 +1,10 @@
+# Netlify settings for this site. The keys (VITE_SUPABASE_URL, VITE_SUPABASE_ANON_KEY,
+# VITE_MAPTILER_KEY, VITE_SITE_URL) are not here: add them in Netlify > Site configuration >
+# Environment variables, then redeploy (they are baked in at build time).
+# Pages use hash URLs (/#/guides), so no redirect rules are needed.
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "20"

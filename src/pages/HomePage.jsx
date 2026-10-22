@@ -20,7 +20,7 @@ export default function HomePage() {
           </p>
           <div className="home-actions">
             <TransitionLink to="/map" label="The map" className="btn btn-primary home-enter">
-              Enter the guide
+              Enter the map
             </TransitionLink>
             <TransitionLink to="/guides" label="Guides" className="btn home-secondary" onMouseEnter={loadGuidesPage} onFocus={loadGuidesPage}>
               Browse the guides
